@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_shop_category"
+            android:icon="@mipmap/category"
+            android:title="Shop by Category" />
+        <item
+            android:id="@+id/nav_my_wishlist"
+            android:icon="@mipmap/heart"
+            android:title="My Wishlist" />
+        <item
+            android:id="@+id/nav_my_orders"
+            android:icon="@mipmap/order"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/nav_my_account"
+            android:icon="@mipmap/account"
+            android:title="My Account" />
+    </group>
+</menu>
